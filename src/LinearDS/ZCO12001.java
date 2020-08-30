@@ -13,7 +13,7 @@ public class ZCO12001 {
 		int seqlength = Integer.parseInt(br.readLine());
 		String[] sequence = br.readLine().trim().split("\\s+");
 		
-		Stack<Integer> stack = new Stack();
+		Stack<Integer> stack = new Stack<Integer>();
 		int count = 0, prevmaxelem = 0, maxelem = 0, prevmaxdepth = 0, maxdepth = 0, plast = 0, pfirst = 0;
 		
 		for(int i = 0; i<seqlength; i++){
